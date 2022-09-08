@@ -1,17 +1,26 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-Vue.use(Vuex)
+import home from "./home";
+import search from "./search";
+import detail from "./detail";
+import cartList from './cartList';
+import user from "./user";
+import trade from "./trade"
+
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  state: {},
+  getters: {},
+  mutations: {},
+  actions: {},
   modules: {
-  }
-})
+    home,
+    search,
+    detail,
+    cartList,
+    user,
+    trade,
+  },
+});

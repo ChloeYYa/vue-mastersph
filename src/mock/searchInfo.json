@@ -1,0 +1,56 @@
+{
+  "trademarkList": [
+    {
+      "tmId": 1,
+      "tmName": "苹果"
+    },
+    {
+      "tmId": 2,
+      "tmName": "小米"
+    },
+    {
+      "tmId": 3,
+      "tmName": "华为"
+    }
+  ],
+  "attrsList": [
+    {
+      "attrId": 1,
+      "attrValueList": ["4500-11999", "2800-4499"],
+      "attrName": "价格"
+    },
+    {
+      "attrId": 2,
+      "attrValueList":["baise","heise","lanse","qingse"],
+      "attrName":"颜色"
+    },
+    {
+      "attrId": 3,
+      "attrValueList":["16G","32G","64G","128G"],
+      "attrName":"内存"
+    }
+  ],
+  "goodsList": [
+    {
+      "id": 2,
+      "defaultImg": "/images/mobile03.png",
+      "title": "Apple iPhone 11 (A2223)",
+      "price": 5499,
+      "createTime": null,
+      "tmId": null,
+      "tmName": null,
+      "category1Id": null,
+      "category1Name": null,
+      "category2Id": null,
+      "category2Name": null,
+      "category3Id": null,
+      "category3Name": null,
+      "hotScore": 0,
+      "attrs": null
+    }
+  ],
+  "total": 8,
+  "pageSize": 2,
+  "pageNo": 1,
+  "totalPages": 4
+}
